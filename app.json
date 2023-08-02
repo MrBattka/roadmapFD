@@ -4,10 +4,10 @@
     "slug": "roadmap-RN",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/round.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/round.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/round.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mrbattka.roadmapRN"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9d1597f8-b1b5-4a74-9dc8-ba168e5917a7"
+      }
     }
   }
 }
